@@ -1,6 +1,8 @@
-import { Btn } from "./Button.styled"
+import { Btn,Container } from "./Button.styled"
 export const Button = ({ clickLoad }) => {
     return (
-        <Btn onClick={clickLoad}>Load more</Btn>
+        <Container>
+            <Btn onClick={clickLoad}>Load more</Btn>
+        </Container>
     )
 }

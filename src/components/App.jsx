@@ -25,7 +25,7 @@ export class App extends Component {
     if (
       prevState.search !== this.state.search ||
       prevState.page !== this.state.page
-    ) {
+    ) { 
       this.getFunc(this.state.search, this.state.page);
     }
   }
